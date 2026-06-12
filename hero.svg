@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="auto" style="max-width: 800px;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0015"/>
+      <stop offset="100%" stop-color="#140028"/>
+    </linearGradient>
+    <linearGradient id="iqGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b9d"/>
+      <stop offset="50%" stop-color="#b44dff"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#ff6b9d"/>
+      <stop offset="70%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowA">
+      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff6b9d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="#1a0040"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="280" fill="url(#bgGrad)" rx="16"/>
+  <rect width="800" height="280" fill="url(#dotGrid)" rx="16"/>
+
+  <circle cx="660" cy="70" r="130" fill="url(#glowA)"/>
+  <circle cx="140" cy="230" r="110" fill="url(#glowB)"/>
+
+  <text x="56" y="148" font-family="'Segoe UI','SF Pro Display',-apple-system,sans-serif" font-size="110" font-weight="900" fill="url(#iqGrad)">IQ</text>
+
+  <text x="56" y="192" font-family="'Segoe UI','SF Pro Display',-apple-system,sans-serif" font-size="28" font-weight="700" letter-spacing="6" fill="#ffffff">KOWASKI</text>
+
+  <rect x="56" y="210" width="220" height="3" rx="1.5" fill="url(#lineGrad)"/>
+
+  <text x="56" y="247" font-family="'Segoe UI',-apple-system,sans-serif" font-size="14" fill="#a888d4">Software Developer · Open Source · Always Building</text>
+
+  <text x="740" y="90" font-family="'Courier New',monospace" font-size="22" fill="#ff6b9d" opacity="0.13" text-anchor="end">{  /  }</text>
+  <text x="740" y="190" font-family="'Courier New',monospace" font-size="30" fill="#00d4ff" opacity="0.09" text-anchor="end">&lt;/&gt;</text>
+</svg>
