@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm IQ Kowaski</h1>
+<h1 align="center">Hi 👋, LOOP</h1>
 <h3 align="center">A passionate developer building cool things with code</h3>
 
 <p align="center">
